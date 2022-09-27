@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgb(90,33,176);
+    background: linear-gradient(0deg, rgba(90,33,176,1) 0%, rgba(253,45,67,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
