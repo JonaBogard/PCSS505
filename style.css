@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgb(34,113,195);
+    background: linear-gradient(0deg, rgba(34,113,195,1) 0%, rgba(45,253,184,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    border: 2px solid #fff;
+}
