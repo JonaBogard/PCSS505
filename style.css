@@ -30,4 +30,9 @@ a{
     padding: 20px;
     margin: auto;
     border: 2px solid #fff;
+
+}
+a:hover{
+    box-shadow: 0 0 20px #fff;
+    transform: scale(1.1);
 }
