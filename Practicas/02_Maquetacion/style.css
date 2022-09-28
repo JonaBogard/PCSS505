@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    background: rgb(90,33,176);
+    background: linear-gradient(0deg, rgba(90,33,176,1) 0%, rgba(253,45,67,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+}
+header{
+    width: 100%;
+    background: palevioletred;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 20px auto;
+}
+#a{
+    width: 100%;
+    height: 600px;
+    background: transparent;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 20px auto;
+}
+nav{
+    width: 250px;
+    height: 100%;
+    background: transparent pink;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    float: left;
+}
+section{
+    width: 50%;
+    height: 40%;
+    background: transparent pink;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    float: center;
+    
+    
+}
+article{
+    width: 50%;
+    height: 40%;
+    background: transparent pink;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    float: left;
+    
+    
+}
+aside{
+    width: 25%;
+    height: 25%;
+    background: transparent pink;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #fff;
+    margin: 20px auto;
+    float: right;
+    display: block;
+    
+}
