@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(90,33,176);
+    background: linear-gradient(0deg, rgba(90,33,176,1) 0%, rgba(253,45,67,1) 100%);
+    font-family: 'Noto Sans Mono', monospace;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.cont{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    background: palevioletred;
+    border: 3px solid white;
+    overflow: hidden;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background: plum;
+    border: 3px solid white;
+    margin: 10px;
+}
+.e01{
+    display: flex;
+    flex-direction: column;
+}
+.e02{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.e03{
+    display: flex;
+    flex-direction: row;
+}
+.e04{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.e05{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.e06{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.e07{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.e08{
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+}
+.e09{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.e10{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+.e11{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+.e12{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.e13{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.e14{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.e15{
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+.e16{
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+.g1{
+    width: 50px;
+    background: plum;
+    border: 3px solid white;
+    margin: 10px;
+}
+.g2{
+    width: 50px;
+    height: 50px;
+    background: plum;
+    border: 3px solid white;
+    margin: 10px;
+}
+.e17{
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+.e18{
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
