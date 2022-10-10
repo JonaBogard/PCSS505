@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(90,33,176);
+    background: linear-gradient(0deg, rgba(90,33,176,1) 0%, rgba(253,45,67,1) 100%);
+    font-family: 'Noto Sans Mono', monospace;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+}
+.box{
+    border: 2px solid white;
+    background: rgb(131, 38, 126);
+    opacity: 80%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    ox-shadow: 0 0 10px black;
+}
+.box:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px black;
+}
+p{
+    margin: 3px;
+    border-bottom: 2px solid white;
+    opacity: 100%;
+}
