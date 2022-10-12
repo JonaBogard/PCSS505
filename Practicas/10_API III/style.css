@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(90,33,176);
+    background: linear-gradient(0deg, rgba(90,33,176,1) 0%, rgba(253,45,67,1) 100%);
+    font-family: 'Noto Sans Mono', monospace;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+}
+#Res{
+    border: 2px ;
+    background: transparent;
+    width: 80%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: auto;
+}
+button:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px black;
+}
+p{
+    margin: 3px;
+    border-bottom: 2px solid white;
+    opacity: 100%;
+}
+img{
+    height: 50%;
+    width: 80%;
+    margin: 20px;
+}
+div{
+    border: 2px solid white;
+    width: 80%;
+}

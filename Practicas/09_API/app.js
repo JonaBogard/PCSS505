@@ -1,4 +1,5 @@
 var divRes=document.querySelector("#Res");
+var date=document.querySelector("#usID");
 const User=async()=>{
     const res=await fetch("https://jsonplaceholder.typicode.com/users")
     const json=await res.json();
