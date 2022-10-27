@@ -22,12 +22,9 @@ body{
     margin: 20px;
     padding: 5px;
     border-radius: 10px;
-    ox-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
 }
-.box:hover{
-    transform: scale(1.2);
-    box-shadow: 0 0 20px black;
-}
+
 p{
     margin: 3px;
     border-bottom: 2px solid white;

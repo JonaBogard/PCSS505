@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans Mono', monospace;
+    padding-top: 70px;
+}
+#res{
+    margin: 10px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}

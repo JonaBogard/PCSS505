@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(90,33,176);
+    background: linear-gradient(0deg, rgba(90,33,176,1) 0%, rgba(253,45,67,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Noto Sans Mono', monospace;
+    padding-top: 70px;
+}
+#res{
+    margin: 10px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.card{
+    box-shadow: 3px;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+}
+select{
+    border-radius: 5px;
+}
+img{
+    border-radius: 5px;
+}
